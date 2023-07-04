@@ -2,7 +2,8 @@
   "name": "dialogue-a-ts-product-spain",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "mocha -r ts-node/register src/**/*.spec.ts src/**/**/*.spec.ts",
     "tsc": "tsc --outDir dist",
@@ -25,5 +26,9 @@
     "mocha": "^10.2.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "form-extensibility-model-ts": "^1.0.5",
+    "form-extensibility-model-ts-product": "^1.0.2"
   }
 }
